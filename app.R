@@ -575,7 +575,7 @@ server <- function(input, output) {
     DT::datatable(processed_email_headers_3, filter = 'top', caption = htmltools::tags$caption(
       style = 'caption-side: top; text-align: center;font-size:100%;',
       'Table 2: ', htmltools::em('All email records of GAStech employees'))) %>%
-      formatStyle(0, target = 'row', lineHeight='80%', fontSize = '100%')
+      formatStyle(0, target = 'row', lineHeight='85%', fontSize = '100%')
   })
   
 }
