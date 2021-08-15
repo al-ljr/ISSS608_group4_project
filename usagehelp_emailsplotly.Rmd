@@ -1,0 +1,23 @@
+---
+output: html_document
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+<br>
+
+<span style='font-size:120%; font-weight:600'>
+
+1)	Select **email subject** via the drop-down list. The emails are categorized into work-related or non-work related email subjects. 
+
+2)	Select **“Apply Changes”** to generate the Plotly graph visualization for the emails sent by GAStech employees. 
+
+3)	All subplots are linked so user can perform **brushing** of selected data and the connections will appear in all other subplots. 
+
+4)  When user **hover over the Plotly figure**, a **modebar** appears in the top-right of the figure and presents user with several options for interacting with the figure such as "Lasso select" to select areas of the graph in lasso format.
+
+
+</span>

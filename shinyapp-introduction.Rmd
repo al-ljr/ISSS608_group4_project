@@ -1,0 +1,35 @@
+---
+output: html_document
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+<span style='color:#66023C; font-size:150%; font-weight:600'> About </span>
+
+- This app is built to help visualize patterns and identify anomalies in an interactive platform. 
+
+- The visualizations in this app are based on the case data from [**VAST Challenge 2021**](https://vast-challenge.github.io/2021/index.html). 
+
+- The app authors are Alethea Lim (Jin Ru), Darius Yeo (Ding Run) and Mayurapriyann Arulmozhi Baskaran with special credits to [**Prof Kam Tin Seong**](https://faculty.smu.edu.sg/profile/kam-tin-seong-486) for his mentorship and guidance in ISSS608 Visual Analytics. 
+
+<br>
+
+<span style='color:#66023C; font-size:150%; font-weight:600'> Overview of the case </span>
+
+- Tethys-based GAStech has been operating a natural gas production site in Kronos, producing remarkable profits and developed strong relationships with the government of Kronos but has not been as successful in demonstrating environmental stewardship.
+
+- In January 2014, the leaders of GAStech are celebrating their new-found fortune as a result of the IPO of their very successful company. In the midst of this celebration, several GAStech employees go missing and kidnapping was reported. 
+
+- Relationships that led up to the kidnapping are analyzed through the [**visNetwork graph**](https://cran.r-project.org/web/packages/visNetwork/vignettes/Introduction-to-visNetwork.html), anomalies with the [**Plotly scatterplots and boxplots**](https://plotly.com/r/) of email headers and suspicious behaviors are identified through the [**igraph bipartite graph**](https://igraph.org/r/doc/igraph.pdf) of credit card transactions and interactive map using [**tmap**](https://cran.r-project.org/web/packages/tmap/vignettes/tmap-getstarted.html) of GPS data. These visualizations are available for exploration in this app's tabs. 
+
+
+
+
+
+
+
+
+

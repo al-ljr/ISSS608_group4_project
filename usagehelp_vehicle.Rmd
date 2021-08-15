@@ -1,0 +1,29 @@
+---
+output: html_document
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+<br>
+
+<span style='font-size:120%; font-weight:600'>
+
+1)	Select desired **employee name** via the drop-down list. The employees’ car stopping locations will appear on the map and the colors are shown in the legend. Multiple selections are possible and each employee will have a different color for easy identification on the map. 
+
+2)	Select **day of month** via the drop down. Multiple selections are also possible and will filter the visualization to show car stoppings on the selected days in January 2014. 
+
+3)	Select the **hour range** via the sliderinput. This filters visualization to include only selected hour range. 
+
+4)	The **“show data table”** option allows user to decide if they want to view or hide the data table. 
+
+5)	Select **“Apply Changes”** to generate the tmap graph for the vehicle stopping locations.
+
+6)	**Click on the node** to see the **tooltip** which provides information about details about the employee and his/her vehicle movement (department, designation and start time, stop time and date).  
+
+7)	The **data table** is provided for user to enable them to compare the credit card usage at specific locations against the vehicle stopping of employees in the tmap, allowing the user to be able to infer who the credit cards might belong to. The ‘top’ filter under the header row of the data table allows end user to easily filter desired information.
+
+
+</span>

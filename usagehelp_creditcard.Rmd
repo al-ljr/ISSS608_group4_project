@@ -1,0 +1,44 @@
+---
+output: html_document
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+<br>
+
+<span style='font-size:120%; font-weight:600'>
+
+1.	Select desired **date range** to visualize the credit card transactions of GAStech employees at their respective locations. The date range has been set to include only the min and max date of the data. The numbers in the red circles represent the last 4 credit card numbers. 
+
+
+
+2.	Select the desired **time period** to filter the visualization by a specific time period. 
+
+
+
+3.	Select the desired **minimum weight**. The weight here represents the minimum number of times that a particular credit card was used at the same location.
+
+
+
+4.	Select the **centrality measure**. The available centrality measures for selection are degree, closeness, betweenness and eigenvector centrality. 
+
+
+
+5.	The **“show data table”** option allows user to decide if they want to view or hide the data table. 
+
+
+
+6.	Select **“Apply Changes”** to generate the Bipartite Network Graph for the credit card transactions. 
+
+
+
+7.	The **navigation buttons** in the visualization plot allow user to have graph navigation functions, moving the graph in their desired direction for more focus. User can also **move the nodes** with the connections preserved in this graph for added interactivity. 
+
+
+
+8.	The **data table** in the visualization plot is provided for user to easily refer to the details of the credit card usage and purchase, loyalty number at the respective time and place. The ‘top’ filter under the header row of the data table allows end user to easily filter desired information. 
+
+</span>

@@ -1,0 +1,38 @@
+---
+output: html_document
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+<br>
+
+<span style='font-size:120%; font-weight:600'>
+
+1)	Select targeted employee via the **focus on their employee ID** drop-down list and the image will zoom into the selected node after “Apply Changes” is selected. Table 1 is linked to the selected employee node in focus. 
+
+2)	Select **subject** via the drop-down list. The emails are categorized into work-related or non-work-related types.
+
+3)	Select **email sent hour** via the drop-down list. The email sent hour is categorized into during work hours and after work hours. 
+
+4)	Select desired **date range** via the date range input to visualize the credit card transactions of GAStech employees at their respective locations. The date range has been set to include only the min and max date of the data. 
+
+5)	Select the **minimum emails exchanged** via the sliderinput. 
+
+6)	Select **“Apply Changes”** to generate the visNetwork graph visualization for the emails sent among GAStech employees. 
+
+7)	Refer to the employee name indicated in Table 1 and select the same **employee name** via the drop-down list to highlight the employee’s nearest neighbors in the visNetwork graph. These nearest neighbors are colleagues whom the employee exchanged emails with under the user’s selected conditions.  
+
+8)	Select the **community** via the drop-down list if user desires to examine the specific communities calculated via the cluster_label_prop algorithm for the respective filtered fields.
+
+9)	The **navigation buttons** allow user to have graph navigation functions, moving the graph in their desired direction for more focus. User can also **move the nodes** with the connections preserved in this graph for added interactivity. 
+
+10)	Employees that are more influential are represented by bigger nodes and thicker arrows represent more emails sent between the nodes (employees). 
+
+11)	The **data table** is provided for user to get more details about the emails sent between the selected employees and his/her recipients/sender. It contains information about the sender’s name, recipient’s name, email subject title, email subject type and datetime details of emails sent. The ‘top’ filter under the header row of the data table allows end user to easily filter desired information.
+
+
+
+</span>
